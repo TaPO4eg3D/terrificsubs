@@ -1,0 +1,1 @@
+web: gunicorn terrificsubs.wsgi --log-file -

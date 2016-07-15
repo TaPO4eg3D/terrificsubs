@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block main-col %}
+<div class="schedule">
+<h2>Понедельник</h2>
+{% for obj in monday %}
+{% include "schedule_item.html"%}
+{% endfor %}
+<h2>Вторник</h2>
+{% for obj in tuesday %}
+{% include "schedule_item.html"%}
+{% endfor %}
+<h2>Среда</h2>
+{% for obj in wednesday %}
+{% include "schedule_item.html"%}
+{% endfor %}
+<h2>Четверг</h2>
+{% for obj in thursday %}
+{% include "schedule_item.html"%}
+{% endfor %}
+<h2>Пятница</h2>
+{% for obj in friday %}
+{% include "schedule_item.html"%}
+{% endfor %}
+<h2>Суббота</h2>
+{% for obj in saturday %}
+{% include "schedule_item.html"%}
+{% endfor %}
+<h2>Воскресенье</h2>
+{% for obj in sunday %}
+{% include "schedule_item.html"%}
+{% endfor %}
+</div>
+{% endblock %}

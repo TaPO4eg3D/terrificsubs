@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block main-col %}
+<h2>Текущий сезон</h2>
+{% for obj in season %}
+<table class="table item">
+      <tbody>
+        <tr>
+          <td><a title="Просмотреть все релизы" href='/anime/{{obj.id}}'>{{obj.title}}</a></td>
+          </td>
+        </tr>
+      </tbody>
+</table>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block main-col %}
+<h1>{{instance.title}}</h1>
+<div class="entry-content">
+<div class="series-info">
+<div class="series-image"><img class="size-full alignleft" src="{{instance.img}}" /></div>
+<div class="series-desc">{{instance.content}}</div>
+</div>
+</div>
+<div style="clear: both;"></div>
+<h2>Эпизоды</h2>
+{%for obj in episode%}
+<table class="table item">
+      <tbody>
+        <tr>
+          <td>({{obj.timestamp | date:"SHORT_DATE_FORMAT" }})<a title="Просмотреть все релизы" href='{%url "detail" id=obj.AnimeTitle.id%}'>{{obj.title}}</a></td>
+          <td class = 'quality'>
+          <a href="{{obj.p480}}">480p</a>
+          <a href="{{obj.p720}}">720p</a>
+          <a href="{{obj.p1080}}">1080p</a>
+          <a href="{{obj.sub_file}}">Субтитры</a>
+          </td>
+        </tr>
+      </tbody>
+</table>
+{%endfor%}
+{% endblock %}

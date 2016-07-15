@@ -1,0 +1,111 @@
+*::-moz-selection{
+	background: #fe57a1;
+	color: #fff;
+	text-shadow: none;
+}
+
+.bestongoing img{
+	margin-top: 51px;
+}
+.main{
+	margin-top: 10px;
+}
+.main hr{
+	border-top: 1px solid #B3B3B3;
+}
+.series-image{
+	float: left;
+	margin-right: 24px;
+	display: inline;
+	margin-bottom: 12px;
+}
+
+h1 {
+	font-weight: normal;
+	color: #000;
+	font-size: 2em;
+	line-height: 1.3em;
+	margin-bottom: 0;
+	word-wrap: break-word;
+	font-family: Open Sans;
+}
+
+h2 {
+	border-bottom: 1px solid #ccc;
+	color: #000;
+	line-height: 1.5em;
+	margin: 0 0 20px 0;
+	font-weight: normal;
+	font-family: Open Sans;
+}
+
+.entry-content{
+	clear: both;
+	padding: 12px 0 0 0;
+}
+
+.series-desc{
+	color: #333;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: Open Sans;
+}
+
+.schedule a{
+	border-bottom: 1px dotted #000 !important;
+	text-decoration: none !important;
+	color: #000 !important;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: Open Sans
+}
+
+.schedule-time{
+	color: #000 !important;
+	font-size: 16px;
+	font-family: Open Sans;
+	text-align: right;
+}
+
+.item a{
+	border-bottom: 1px dotted #000 !important;
+	text-decoration: none !important;
+	color: #000 !important;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: Open Sans
+}
+
+.item{
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+td{
+	padding: 0px !important;
+	border-top: 0 !important;
+}
+
+.quality{
+	color: #000 !important;
+	font-size: 16px;
+	font-family: Open Sans;
+	text-align: right;
+}
+
+.anilist{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+}
+
+.info{
+	line-height: 18px;
+	font-family: Open Sans;
+}
+
+.info h3{
+	font-size: 14px;
+	color: #a0a0a0;
+	font-weight: bold;
+}

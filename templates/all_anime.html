@@ -1,0 +1,10 @@
+{%extends "base.html"%}
+{% block main-col %}
+<h2>Все релизы</h2>
+<div class="anilist item">
+{%for obj in object_list%}
+<a href="/anime/{{obj.id}}">{{obj.title}}</a>
+<br>
+{%endfor%}
+</div>
+{% endblock %}

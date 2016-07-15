@@ -1,0 +1,7 @@
+dj-database-url==0.4.1
+Django==1.9.7
+django-el-pagination==2.1.2
+django-picklefield==0.3.2
+django-polymodels==1.4.5
+gunicorn==19.6.0
+whitenoise==3.2
